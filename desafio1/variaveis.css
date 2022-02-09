@@ -22,22 +22,35 @@ html, body {
   background: lightblue;
 }
 
-header {
+.content {
+  background-image: var(--linear);
   display: flex;
-  height: 10vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
   width: 100%;
+  height: 20vw;
 }
 
-header.header-1 {
-  background: #eee;
-  border: 5px solid #ccc;
-  flex: 1;
-  padding: 20px;
+.item-0 {
+  flex: 0 0 45%;
+  background: white;
+  text-align: center;
+  font-size: 1.4em;
+
 }
 
-header.header-2 {
-  flex: 1;
+.item-1 {
+  flex: 0 0 45%;
+  background: white;
+  text-align: center;
+  font-size: 1.4em;
+
 }
- header > input {
-  flex: 2;
- }
+
+.item-2 {
+  flex: 0 0 70%;
+  padding: 5px;
+  margin: 0px;
+}
