@@ -17,39 +17,4 @@
   margin: 0;
 }
 
-body {
-  background-color: #e5e5e5;
-}
-
-header {
-  display: flex;
-  background-image: var(--linear);
-  align-items: center;
-  justify-content: center;
-  height: 25vh;
-}
-
-header > h3 {
-  color: var(--white);
-  width: 100%;
-  height: auto;
-
-}
-
-header > input {
-  width: 67%;
-  margin: 50px 0 20px;
-  padding: 15px 20px;
-  border: 0;
-  border-radius: 4px;
-  background: linear-gradient(90deg, #7285e9 0%, #69a5e5 100%);
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  outline: none;
-  color: #b8c2f4;
-}
-
-header > input::placeholder {
-  color: var(--white);
-}
 
