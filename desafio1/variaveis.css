@@ -19,6 +19,7 @@
 body {
   font-family: 'Lexend Deca', Helvetica, Arial, sans-serif;
   color: #222222;
+  background: #F3F5F7;
 }
 
 .header-bg {
@@ -52,17 +53,16 @@ body {
 .pesquisa input {
   flex: 1;
   margin-bottom: 41px;
-  padding: 20px;
+  padding: 21px;
   font-size: 24px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   background: #FFFFFF33;
+  color: #FFFFFF33;
   border: none;
   border-radius: 5px;
+  outline: none;
 }
 
-.pesquisa input::before {
-  content: '';
-}
 .pesquisa input::placeholder {
   color: #FFFFFF33;
 }
