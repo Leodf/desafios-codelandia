@@ -48,13 +48,14 @@ body {
 .pesquisa {
   max-width: 900px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 0px auto;
 }
 
 .pesquisa input {
-  flex: 1;
+  width: 100%;
   margin-bottom: 41px;
   padding: 21px;
   font-size: 24px;
@@ -64,6 +65,10 @@ body {
   border: none;
   border-radius: 5px;
   outline: none;
+  background-image: url(assets/search_white_24dp.svg);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: left;
 }
 
 .pesquisa input::placeholder {
