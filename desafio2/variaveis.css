@@ -20,7 +20,7 @@
   --bgSite: #f6f6f6;
   --bgCard: #ebe9ea;
   
-  --white: #fff;
+  --white: #F9F9F9;
 
   --title: #181818;
   --text: #474747;
@@ -69,6 +69,28 @@ input:focus {
   border: 0;
 }
 
-.header-2 {
+.header-1 {
+  background: var(--title);
+  color: var(--white);
+  text-align: center;
   font-family: 'Montserrat-medium', sans-serif;
+}
+
+.header-1 p {
+  padding: 20.5px;
+}
+
+.header-2 {
+  font-family: 'Montserrat-semibold', sans-serif;
+  text-align: center;
+}
+
+.header-2 h2 {
+  padding: 15.5px;
+}
+
+.slogan {
+  position: relative;
+  z-index: 10;
+  margin-top: -70px;
 }
