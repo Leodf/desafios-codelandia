@@ -54,5 +54,19 @@
         <h1 class="titulo">John McAfee, criador do antivirus McAfee, morre</h1>
         <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolorum cum deserunt delectus est sunt facere. Non sit omnis neque, quisquam voluptatibus, numquam laboriosam fugiat dolore cum nisi illo quas.</p>
     </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.artigo', { delay: 200 });
+        ScrollReveal().reveal('.data', { delay: 400 });
+        ScrollReveal().reveal('.titulo', { delay: 500 });
+        ScrollReveal().reveal('.texto', { delay: 600 });
+</script>
 </body>
 </html>
