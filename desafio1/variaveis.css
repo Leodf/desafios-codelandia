@@ -66,6 +66,9 @@ body {
   outline: none;
 }
 
+.pesquisa input::before {
+  content: "icon";
+}
 .pesquisa input::placeholder {
   color: #ffffff;
   opacity: 0.5;
@@ -113,5 +116,18 @@ body {
 .texto {
   padding: 0px 25px 25px 25px;
   color: var(--text);
+  text-align: justify;
 }
 
+@media (max-width: 900px) {
+  .header {
+    margin: 0 20px;
+  }
+  .pesquisa {
+    padding: 0px 20px;
+  }
+  .artigo {
+    margin: 50px 20px;
+  }
+
+}
