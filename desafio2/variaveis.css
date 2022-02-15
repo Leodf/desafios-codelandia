@@ -92,8 +92,9 @@ input:focus {
 .imagem-bg {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   color: white;
   background-size: cover;
   
@@ -106,7 +107,6 @@ input:focus {
 }
 
 .imagem-bg p {
-  width: 50%;
   font-family: 'Montserrat-medium', sans-serif;
   background-color: #181818;
   padding: 5px;
@@ -115,6 +115,5 @@ input:focus {
 #wallpaper {
   background-image: url(img/wallpaper.jpeg);
   background-position: right center;
-  height: 30vh;
-
+  height: 400px;
 }
