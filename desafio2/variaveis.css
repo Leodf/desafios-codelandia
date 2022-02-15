@@ -92,16 +92,16 @@ input:focus {
 .imagem-bg {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-
+  color: white;
+  background-size: cover;
 }
 
-.imagem-bg img {
-  filter:brightness(50%)
-}
 
-.slogan {
-  width: 50%;
-  display: inline-block;
+#wallpaper {
+  background-image: url(img/wallpaper.jpeg);
+  background-position: right center;
+  height: 30vh;
+
 }
