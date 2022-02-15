@@ -93,26 +93,30 @@ input:focus {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
   color: white;
-  background-size: cover;
-  
+  padding: 5px;
+  font-family: 'Montserrat-medium', sans-serif;;
 }
 
 .imagem-bg h1 {
-  font-family: 'Montserrat-medium', sans-serif;
-  padding: 5px;
+  flex: 1 1 auto;
 }
 
 .imagem-bg p {
-  font-family: 'Montserrat-medium', sans-serif;
-  padding: 5px;
+  flex: 1 1 auto;
+}
+
+.imagem-bg i {
+  flex: 2 1 auto;
 }
 
 #wallpaper {
   background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0,0,0,0.5)), url(img/wallpaper.jpeg);
-  background-position: right center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 400px;
 }
 
