@@ -89,8 +89,19 @@ input:focus {
   padding: 15.5px;
 }
 
+.imagem-bg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.imagem-bg img {
+  filter:brightness(50%)
+}
+
 .slogan {
-  position: relative;
-  z-index: 10;
-  margin-top: -70px;
+  width: 50%;
+  display: inline-block;
 }
