@@ -119,8 +119,12 @@ input:focus {
 }
 
 .destaque {
-  margin: 59px;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 59px 10px;
 }
 
 .destaque h1 {
@@ -130,18 +134,33 @@ input:focus {
 .destaque p {
   font-family: 'Montserrat-medium', sans-serif;
   padding: 9.5px 0px;
+  text-align: center;
 }
 
-.container-produtos {
-  max-width: 1300px;
+.produtos {
+  max-width: 1440px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
 }
 
 .produtos li {
-  margin: 10px;
+  flex: 1 1 250px;
+  margin-bottom: 39px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
   background: var(--bgCard);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  background: var(--title);
+  font-family: 'Montserrat-medium';
+  height: 60px;
 }
