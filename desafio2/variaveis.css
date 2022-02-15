@@ -117,3 +117,31 @@ input:focus {
   background-position: right center;
   height: 400px;
 }
+
+.destaque {
+  margin: 59px;
+  text-align: center;
+}
+
+.destaque h1 {
+  font-family: 'Montserrat-semibold', sans-serif;
+}
+
+.destaque p {
+  font-family: 'Montserrat-medium', sans-serif;
+  padding: 9.5px 0px;
+}
+
+.container-produtos {
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.produtos li {
+  margin: 10px;
+  background: var(--bgCard);
+}
