@@ -92,24 +92,24 @@ input:focus {
 .imagem-bg {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   color: white;
   padding: 5px;
   font-family: 'Montserrat-medium', sans-serif;;
 }
 
 .imagem-bg h1 {
-  flex: 1 1 auto;
+  flex: 1 1 400px;
 }
 
 .imagem-bg p {
-  flex: 1 1 auto;
+  flex: 1 1 400px;
 }
 
 .imagem-bg i {
-  flex: 2 1 auto;
+  flex: 1 1 400px;
 }
 
 #wallpaper {
