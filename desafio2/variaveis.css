@@ -89,6 +89,37 @@ input:focus {
   padding: 15.5px;
 }
 
+.main-image {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0,0,0,0.5)), url('../desafio2/img/wallpaper.jpeg');
+  margin: 0 auto;
+  position: relative;
+  height: 400px;
+}
+
+.center-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-image-info {
+  color: #FFF;
+  font-family: 'Montserrat-medium', 'sans-serif';
+  width: 500px;
+  padding: 25px;
+  position: absolute;
+  left: 25px;
+  bottom: 135px;
+}
+
+.main-image-info h1 {
+  padding-bottom: 20px;
+}
+
+
+
+
 .imagem-bg {
   display: flex;
   flex-wrap: wrap;
