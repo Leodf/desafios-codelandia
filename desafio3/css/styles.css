@@ -56,7 +56,8 @@ input:focus {
 /* HEADER */
 #header {
   background-color: var(--bgSite);
-  height: 560px;
+  height: auto;
+  padding: 30px 75px;
 }
 
 .descricao-header h1 {
