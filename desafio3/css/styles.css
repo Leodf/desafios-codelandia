@@ -14,6 +14,14 @@
   font-family: 'Lato', sans-serif;
 }
 
+* body {
+  background-color: #FFF;
+}
+
+.primary-bg-color {
+  background-color: var(--bgSite);
+}
+
 /* HEADER */
 #header {
   background-color: var(--bgSite);
@@ -43,3 +51,55 @@
   background-color: #5d54ff;
 }
 
+/* APRESENTAÇÃO CARDS */
+
+#container-cards {
+  margin: 150px auto;
+}
+
+.card {
+  height: 423px;
+  margin-bottom: 67px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: var(--title);
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+  margin: 21px auto;
+}
+
+.card-text {
+  color: var(--text);
+}
+
+.color-1 {
+  background-color: #FF6363;
+  height: 40vh;
+}
+
+.color-2 {
+  background-color: #63ECFF;
+  height: 40vh;
+}
+
+.color-3 {
+  background-color: #F363FF;
+  height: 40vh;
+}
+
+.color-4 {
+  background-color: #63FF73;
+  height: 40vh;
+}
+
+.color-5 {
+  background-color: #FFDD63;
+  height: 40vh;
+}
+
+.color-6 {
+  background-color: #6663FF;
+  height: 40vh;
+}
