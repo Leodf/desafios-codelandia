@@ -54,7 +54,7 @@
 /* APRESENTAÇÃO CARDS */
 
 #container-cards {
-  margin: 150px auto;
+  margin: 150px auto 83px auto;
 }
 
 .card {
@@ -102,4 +102,11 @@
 .color-6 {
   background-color: #6663FF;
   height: 40vh;
+}
+
+/* FORMS */
+
+#contato {
+  background-color: var(--bgSite);
+  height: 500px;
 }
