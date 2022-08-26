@@ -195,11 +195,6 @@ input:focus ~ span {
     align-items: center;
 }
 
-.form_group p {
-    display: inline-block;
-    margin-left: 0.5rem;
-}
-
 .form_group input {
     margin: 0;
     padding: 0;
@@ -207,6 +202,48 @@ input:focus ~ span {
 
 .keep_login {
     display: flex;
+}
+
+.keep_login label {
+    margin-left: 0.5rem;
+}
+
+.keep_login input[type="checkbox"] {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    appearance: none;
+    content: '';
+    width: 20px;
+    height: 20px;
+    outline: none;
+    align-self: center;
+    border-radius: 50%;
+    transition: all 200ms ease;
+}
+
+.keep_login input[type="checkbox"]:focus {
+    border: 1px solid var(--secondary-color);
+}
+
+.keep_login input[type="checkbox"]:checked {
+    border: 1px solid var(--primary-color);
+}
+
+.keep_login input[type="checkbox"]:before {
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.keep_login input[type="checkbox"]:checked:before {
+    opacity: 1;
 }
 
 @media screen and (max-width: 1000px) {
