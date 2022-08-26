@@ -41,6 +41,10 @@ a:hover {
     color: var(--primary-color);
 }
 
+a:focus {
+    border: 1px solid var(--primary-color);
+}
+
 img {
     width: 100%;
     display: block;
@@ -76,7 +80,11 @@ p {
     border-radius: 5px;
     width: 100%;
     margin-bottom: 1rem;
-    cursor: pointer;
+    cursor: pointer;        
+}
+
+.btn:focus {
+    border: 2px solid var(--secondary-color);
 }
 
 .btn:active {
